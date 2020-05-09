@@ -26,7 +26,7 @@ def letterCombinationsUtil(number, n, table):
 # functions that creates the mapping and call letterCombinationUtil
 def letterCombinations(number, n):
     # table[i] stores all characters that corresponds to ith digit in phone
-    table = ["", "", "a,b,c", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"]
+    table = ["", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"]
 
     list = letterCombinationsUtil(number, n, table)
 
