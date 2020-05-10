@@ -117,4 +117,4 @@ stack:
             else:
                 node = None
 
-     return visit_order
+    return visit_order
