@@ -28,6 +28,13 @@ class Node(object):
     def has_right_child(self):
         return self.right != None
 
+    # Define __repr__ to decide what a print statement displays for a Node
+    def __repr__(self):
+        return f"Node({self.get_value()})"
+
+    def __str__(self):
+        return f"Node({self.get_value()})"
+
 
 # Defining Tree class
 class Tree(object):
@@ -37,6 +44,12 @@ class Tree(object):
     def get_root(self):
         return self.root
 
+
+# Adding nodes as children
+tree = Tree("apple")
+tree.get_root().set_left_child(Node("banana"))
+tree.get_root().set_right_child(Node("cherry"))
+tree.get_root().get_left_child().set_left_child(Node("dates"))
 
 # Driver code
 node0 = Node("apple")
