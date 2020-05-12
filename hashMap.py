@@ -5,4 +5,7 @@ def mult(n):
 list = [1, 2, 3, 4, 5]
 
 map = map(mult, list)
-print(map)
+
+print(next(map))
+print(next(map))
+print(next(map))
