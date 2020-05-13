@@ -9,3 +9,5 @@ map = map(mult, list)
 print(next(map))
 print(next(map))
 print(next(map))
+
+print(*map)
