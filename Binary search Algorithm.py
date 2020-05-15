@@ -20,7 +20,7 @@ def BinarySearch(arr, x, firstNum, lastNum):
 
 # Test array
 arr = [2, 3, 4, 10, 40]
-x = 10
+x = int(input("Enter the number to searched: "))
 
 # Driver code
 result = BinarySearch(arr, x, 0, len(arr) - 1)
