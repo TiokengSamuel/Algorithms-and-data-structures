@@ -1,0 +1,7 @@
+# binary heap
+# heap list 1
+
+class BinHeap:
+    def __init__(self):
+        self.heapList = [0]
+        self.currentSize = 0
