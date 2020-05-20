@@ -36,6 +36,7 @@ def quickSort(array, start, end):
 
 
 # driver code
+
 array = [29, 99, 27, 41, 56, 89, 45, 9, 21, 2, 1, 98, 34, 59, 90]
 quickSort(array, 0, len(array) - 1)
 print(array)
