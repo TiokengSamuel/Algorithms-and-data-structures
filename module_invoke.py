@@ -18,5 +18,5 @@ def main():
     print("Hell0!")
     print('Welcome user')
 
-
-main()
+if __name__ == "__main__":
+    main()
