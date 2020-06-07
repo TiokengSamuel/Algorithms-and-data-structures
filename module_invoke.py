@@ -13,5 +13,10 @@ def mult(a, b):
 def div(a, b):
     return a / b
 
+
 def main():
     print("Hell0!")
+    print('Welcome user')
+
+
+main()
