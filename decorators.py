@@ -11,4 +11,6 @@ def smart_div(func):
     return inner
 
 
-print(div(2, 4))
+div = smart_div(div)
+
+div(2, 4)
